@@ -9,10 +9,10 @@ Author: [Shawar Khan](https://www.shawarkhan.com)
 Disclaimer: I am not responsible for any damage done using this tool. This tool should only be used for educational purposes and for penetration testing.
 
 
-###Compatibility: 
+###Compatibility:
 * Windows , Linux or any device running python 2.7
 
-###Requirements: 
+###Requirements:
 
 * Python 2.7
 
@@ -65,15 +65,15 @@ WORDLIST:  wordlist.txt
 ###Output:
 
 ```
-  ____             _        __  ______ ____  
- | __ ) _ __ _   _| |_ ___  \ \/ / ___/ ___| 
- |  _ \| '__| | | | __/ _ \  \  /\___ \___ \ 
+  ____             _        __  ______ ____
+ | __ ) _ __ _   _| |_ ___  \ \/ / ___/ ___|
+ |  _ \| '__| | | | __/ _ \  \  /\___ \___ \
  | |_) | |  | |_| | ||  __/  /  \ ___) |__) |
- |____/|_|   \__,_|\__\___| /_/\_\____/____/ 
-                                            
+ |____/|_|   \__,_|\__\___| /_/\_\____/____/
+
  BruteXSS - Cross-Site Scripting BruteForcer
- 
- Author: Shawar Khan - https://shawarkhan.com                      
+
+ Author: Shawar Khan - https://shawarkhan.com
 
 
 Select method: [G]ET or [P]OST (G/P): p
@@ -91,7 +91,7 @@ Select method: [G]ET or [P]OST (G/P): p
 
 [+] Testing 'parameter' parameter...
 [+] 2 / 25 payloads injected...
-[!] XSS Vulnerability Found! 
+[!] XSS Vulnerability Found!
 [!] Parameter:	parameter
 [!] Payload:	"><script>prompt(1)</script>
 

@@ -16,18 +16,18 @@ from colorama import init , Style, Back,Fore
 import mechanize
 import httplib
 init()
-banner = """                                                                                       
-  ____             _        __  ______ ____  
- | __ ) _ __ _   _| |_ ___  \ \/ / ___/ ___| 
- |  _ \| '__| | | | __/ _ \  \  /\___ \___ \ 
+banner = """
+  ____             _        __  ______ ____
+ | __ ) _ __ _   _| |_ ___  \ \/ / ___/ ___|
+ |  _ \| '__| | | | __/ _ \  \  /\___ \___ \
  | |_) | |  | |_| | ||  __/  /  \ ___) |__) |
- |____/|_|   \__,_|\__\___| /_/\_\____/____/ 
-                                            
+ |____/|_|   \__,_|\__\___| /_/\_\____/____/
+
  BruteXSS - Cross-Site Scripting BruteForcer
- 
- Author: Shawar Khan - https://shawarkhan.com 
- 
- Sponsored & Supported by Netsparker Web Application Security Scanner 
+
+ Author: Shawar Khan - https://shawarkhan.com
+
+ Sponsored & Supported by Netsparker Web Application Security Scanner
  ( https://www.netsparker.com/?utm_source=software&utm_medium=referral&utm_content=brand+name&utm_campaign=generic+advert )
 
  Note: Using incorrect payloads in the custom
@@ -155,7 +155,7 @@ def brutexss():
 					lop = str(len(payloads))
 					grey = Style.DIM+Fore.WHITE
 					print(Style.DIM+Fore.WHITE+"[+] "+lop+" Payloads loaded..."+Style.RESET_ALL)
-					print("[+] Bruteforce start:") 
+					print("[+] Bruteforce start:")
 					o = urlparse.urlparse(site)
 					parameters = urlparse.parse_qs(o.query,keep_blank_values=True)
 					path = urlparse.urlparse(site).scheme+"://"+urlparse.urlparse(site).netloc+urlparse.urlparse(site).path
